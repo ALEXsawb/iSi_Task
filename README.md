@@ -14,3 +14,16 @@ manage.py migrate
 manage.py loaddata db.json
 manage.py runserver
 ```
+
+Credentials for using data from dumdata file (db.json):
+| username | password | is_Staff  |
+|----------|----------|-----------|
+|    S     |     S    | superuser |
+|    U1    | user1111 |           |
+|    U2    | user2222 |           |
+
+| username | password | is_Staff  |
+|----------|----------|-----------|
+| S        | S        | superuser |
+| U1       | user1111 |           |
+| U2       | user2222 |           |
