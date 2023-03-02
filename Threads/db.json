@@ -1,0 +1,205 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$O9A9EzGy0XhGS5NHW3xW76$5Op8ut1mbU6VjIUfrf9IthOPc+bH253kFp+h1ngteI0=",
+        "last_login": "2023-03-02T09:37:32.514Z",
+        "is_superuser": true,
+        "username": "S",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-03-01T13:17:03.615Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$CqKauH5Gsr8DsTRkNpl7L2$J2W5akwlBzBHPL9KqnCZ/e5SLg1KXZsVOyRLeOfgxfk=",
+        "last_login": "2023-03-01T14:42:59.083Z",
+        "is_superuser": false,
+        "username": "U1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-01T13:20:02.467Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0nak1fhJ0t4wzoiUgc09D1$om3Sd9fqzIis8UvYiuGrfG2vmVLLYyV0Vtr/wzq+ouM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "U2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-03-01T13:20:19.780Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 1,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "Hello, U1",
+        "created": "2023-03-01T16:53:01.849Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 2,
+    "fields": {
+        "sender": 2,
+        "thread": 6,
+        "text": "Hello, my frnd",
+        "created": "2023-03-01T16:53:23.832Z",
+        "is_read": true
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 3,
+    "fields": {
+        "sender": 2,
+        "thread": 6,
+        "text": "Парам-пам-пам",
+        "created": "2023-03-01T20:07:20.631Z",
+        "is_read": true
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 4,
+    "fields": {
+        "sender": 2,
+        "thread": 6,
+        "text": "да-да-да",
+        "created": "2023-03-01T20:07:38.083Z",
+        "is_read": true
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 5,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "New message",
+        "created": "2023-03-02T11:00:34.503Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 6,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "New message2",
+        "created": "2023-03-02T11:17:02.623Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 7,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "New message3",
+        "created": "2023-03-02T11:17:06.428Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 8,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "New message4",
+        "created": "2023-03-02T11:17:13.687Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.messagemodel",
+    "pk": 9,
+    "fields": {
+        "sender": 1,
+        "thread": 6,
+        "text": "New message5",
+        "created": "2023-03-02T11:17:17.006Z",
+        "is_read": false
+    }
+},
+{
+    "model": "TestThread.threadmodel",
+    "pk": 6,
+    "fields": {
+        "participant1": 2,
+        "participant2": 1,
+        "created": "2023-03-01T15:47:53.274Z",
+        "updated": "2023-03-01T15:47:53.274Z"
+    }
+},
+{
+    "model": "TestThread.threadmodel",
+    "pk": 7,
+    "fields": {
+        "participant1": 2,
+        "participant2": 3,
+        "created": "2023-03-01T15:52:47.731Z",
+        "updated": "2023-03-01T15:52:47.731Z"
+    }
+},
+{
+    "model": "TestThread.threadmodel",
+    "pk": 8,
+    "fields": {
+        "participant1": 2,
+        "participant2": 2,
+        "created": "2023-03-01T16:05:00.522Z",
+        "updated": "2023-03-01T16:05:00.522Z"
+    }
+},
+{
+    "model": "TestThread.threadmodel",
+    "pk": 22,
+    "fields": {
+        "participant1": 3,
+        "participant2": 1,
+        "created": "2023-03-02T09:05:33.190Z",
+        "updated": "2023-03-02T09:05:33.190Z"
+    }
+},
+{
+    "model": "TestThread.threadmodel",
+    "pk": 23,
+    "fields": {
+        "participant1": 3,
+        "participant2": 3,
+        "created": "2023-03-02T09:05:44.860Z",
+        "updated": "2023-03-02T09:05:44.860Z"
+    }
+}
+]
